@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+
+.comum {
+  align-items: center;
+  display: flex;
+}
+
+.barra-topo {
+  flex-direction: column;
+  float: right;
+  font-size: 13px;
+  height: 60px;
+  padding: 10px;
+}
+
+.barra-topo-itens {
+  flex-direction: row;
+  justify-content: flex-end;
+  float: right;
+  flex-grow: 1;
+  padding-left: 32px;
+}
+
+.barra-topo-itens div {
+  margin-left: 22px;
+}
+
+.barra-topo-itens a {
+  color: #202124;
+}
+
+.barra-topo-itens .link:hover {
+  text-decoration: underline;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.google-apps {
+  justify-content: center;
+  position: relative;
+  height: 40px;
+  width: 40px;
+}
+
+.google-apps:hover {
+  background-color: rgba(60, 64, 67, 0.08);
+  border-radius: 100%;
+  opacity: 1;
+}
+
+.google-apps:hover svg {
+  color: #5f6368;
+}
+
+.google-apps svg {
+  width: 24px;
+  height: 24px;
+}
+
+.fazer-login .link {
+  background: #1a73e8;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  line-height: 16px;
+  margin-right: 8px;
+  min-width: 96px;
+  padding: 9px 23px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.fazer-login .link:hover {
+  background: #1b66c9;
+  text-decoration: none;
+}
